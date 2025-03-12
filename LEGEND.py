@@ -16,7 +16,7 @@ attacked_ips = set()
 MAX_ATTACK_DURATION = 240
 
 # Cooldown period (in seconds) after an attack is initiated
-COOLDOWN_PERIOD = 100
+COOLDOWN_PERIOD = 1
 
 # Dictionary to store allowed users and their expiry timestamp.
 # If expiry is None, then access never expires.
